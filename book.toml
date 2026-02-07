@@ -1,0 +1,6 @@
+[book]
+title = "ME360 Portfolio"
+authors = []
+language = "en"
+[output.html]
+mathjax-support = true
