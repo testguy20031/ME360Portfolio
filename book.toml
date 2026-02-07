@@ -3,4 +3,7 @@ title = "ME360 Portfolio"
 authors = []
 language = "en"
 [output.html]
+git-repository-url = "https://github.com/testguy20031/ME360Portfolio"
+# This helps mdbook understand it is in a subfolder
+site-url = "/ME360Portfolio/"
 mathjax-support = true
