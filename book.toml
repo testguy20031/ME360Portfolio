@@ -1,9 +1,10 @@
 [book]
 title = "ME360 Portfolio"
-authors = []
+authors = ["Joel Gutierrez Wirtz"]
 language = "en"
+src = "src" # Explicitly tell it where your markdown files are
+
 [output.html]
 git-repository-url = "https://github.com/testguy20031/ME360Portfolio"
-# This helps mdbook understand it is in a subfolder
 site-url = "/ME360Portfolio/"
 mathjax-support = true
