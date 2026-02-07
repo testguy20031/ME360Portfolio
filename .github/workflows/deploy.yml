@@ -1,7 +1,7 @@
 name: Deploy mdBook to GitHub Pages
 on:
   push:
-    branches: ["main"]
+    branches: ["main"] # Or "master" depending on your default branch
 
 permissions:
   contents: read
@@ -11,11 +11,6 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    # --- ADD THESE LINES ---
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    # -----------------------
     steps:
       - uses: actions/checkout@v4
       - name: Install mdBook
@@ -28,7 +23,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./book
+          path: ./book # This is where mdbook puts the HTML files
       - name: Deploy to GitHub Pages
-        id: deployment # Add this ID so the environment URL works
         uses: actions/deploy-pages@v4
+
