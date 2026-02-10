@@ -4,7 +4,7 @@
 Below is the final simulation of the trash can lid mechanism, synthesized to follow the required path constraints.
 
 <div align="center">
-  <video src="videos/TrashCanChallenge.mp4" controls width="80%"></video>
+  <video src="videos/TrashCanChallengeSolidWorks.mp4" controls width="80%"></video>
 </div>
 
 ---
@@ -43,9 +43,13 @@ After locating the pivots, I constrained the lengths for links **PK** and **QD**
 
 ---
 
-## Final Simulation (Math Illustrations)
+## Final Simulation (Math Illustrations) and SolidWorks Animation
 The following video demonstrates the final geometry in motion, confirming that the tray follows the synthesized path.
 
 <div align="center">
   <video src="videos/TrashCanChallenge.mp4" controls width="80%"></video>
+</div>
+
+<div align="center">
+  <video src="videos/TrashCanChallengeSolidWorks.mp4" controls width="80%"></video>
 </div>
